@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileTrail", "FileTrail.vcxproj", "{A6E0F0C7-412F-478E-B060-CD1E276833B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileTrailPS", "FileTrailPS\FileTrailPS.vcxproj", "{3A56F062-24F2-4574-957D-5DFFD14233F9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A6E0F0C7-412F-478E-B060-CD1E276833B1} = {A6E0F0C7-412F-478E-B060-CD1E276833B1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6E0F0C7-412F-478E-B060-CD1E276833B1}.Debug|x64.ActiveCfg = Debug|x64
+		{A6E0F0C7-412F-478E-B060-CD1E276833B1}.Debug|x64.Build.0 = Debug|x64
+		{A6E0F0C7-412F-478E-B060-CD1E276833B1}.Debug|x86.ActiveCfg = Debug|Win32
+		{A6E0F0C7-412F-478E-B060-CD1E276833B1}.Debug|x86.Build.0 = Debug|Win32
+		{A6E0F0C7-412F-478E-B060-CD1E276833B1}.Release|x64.ActiveCfg = Release|x64
+		{A6E0F0C7-412F-478E-B060-CD1E276833B1}.Release|x64.Build.0 = Release|x64
+		{A6E0F0C7-412F-478E-B060-CD1E276833B1}.Release|x86.ActiveCfg = Release|Win32
+		{A6E0F0C7-412F-478E-B060-CD1E276833B1}.Release|x86.Build.0 = Release|Win32
+		{3A56F062-24F2-4574-957D-5DFFD14233F9}.Debug|x64.ActiveCfg = Debug|x64
+		{3A56F062-24F2-4574-957D-5DFFD14233F9}.Debug|x86.ActiveCfg = Debug|Win32
+		{3A56F062-24F2-4574-957D-5DFFD14233F9}.Release|x64.ActiveCfg = Release|x64
+		{3A56F062-24F2-4574-957D-5DFFD14233F9}.Release|x86.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

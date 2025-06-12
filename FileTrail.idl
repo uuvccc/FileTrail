@@ -1,0 +1,18 @@
+// FileTrail.idl : IDL source for FileTrail
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (FileTrail.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(2ff28472-41da-4aeb-9995-f933d8b85d62),
+	version(1.0),
+]
+library FileTrailLib
+{
+	importlib("stdole2.tlb");
+};
+
