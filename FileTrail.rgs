@@ -1,3 +1,25 @@
 HKCR
 {
+    NoRemove *
+    {
+        NoRemove shellex
+        {
+            NoRemove PropertySheetHandlers
+            {
+                ForceRemove FileTrail = s '{1B12EB41-A8BD-42F4-8EF6-A3E1BE205172}'
+            }
+        }
+    }
+    NoRemove CLSID
+    {
+        ForceRemove {1B12EB41-A8BD-42F4-8EF6-A3E1BE205172} = s 'FileTrail Shell Extension'
+        {
+            InprocServer32 = s '%MODULE%'
+            {
+                val ThreadingModel = s 'Apartment'
+            }
+            TypeLib = s '{1B12EB41-A8BD-42F4-8EF6-A3E1BE205172}'
+            Version = s '1.0'
+        }
+    }
 }

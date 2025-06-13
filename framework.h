@@ -3,7 +3,7 @@
 #ifndef STRICT
 #define STRICT
 #endif
-
+//#include <afxwin.h>
 #include "targetver.h"
 
 #define _ATL_APARTMENT_THREADED
